@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ 
+header {
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+ 
+.main-visual {
+  width: 100%; /* 横幅 */
+  height: 300px; /* 高さ */
+}
+.main-visual-content{
+  width: 350px; /* 横幅を指定 */
+  height: 300px; /* 親の高さに揃える */
+}
+ 
+.main {
+  width: 840px; /* 横幅 */
+  margin: 0 auto;
+}
+.blog {
+  width: 600px;
+  height: 1400px;
+  float: left; /* 要素を左揃えで並べる */
+}
+.sidebar {
+  width: 240px;
+  height: 1400px;
+  float: left; /* 要素を左揃えで並べる */
+}
+ 
+footer {
+  width: 100%; /* 横幅 */
+  height: 120px; /* 高さ */
+}
